@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- This meta tag is for responsive webpages -->
+    <meta name="keywords" content="Profile, website design,web developer,design,web,
+    resume website, resume, website,html, css, javascript">
+    <meta name="description" content="Maryam faraji is a web designer who design websited 
+    which is compatible with different search engines (SEO) and it is responsive and
+    compatible with defferent media such as mobile, tablet.">
+    <title>Maryam Faraji Contact Page</title>
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="projects.html">Projects</a></li> -->
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="search">
+            <!-- <label for="searchbutton">search</label> -->
+            <input type="text" name="search" id="searchbutton">
+            <button type="submit">search</button>
+        </div>
+        <div id="dropDownMenu">
+            <nav>
+                <ul>
+                    <li id="dropdown">
+                            <img src="images/menu.jpg" alt="menu" >
+                            <div class="dropdown-content">
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About</a>
+                                <!-- <a href="projects.html">Projects</a> -->
+                                <a href="experience.html">Experience</a>
+                                <a href="contact.html">Contact</a>
+                            </div>
+                    </li>
+
+                </ul>
+            </nav>            
+        </div>
+        <header><p>Maryam Faraji</p></header>
+        <main>
+           <div id="contact">
+           <img src="images/contact.png" alt="contact">
+           <div id="contactMain">
+            <h1 style="display: none;">Contact Us</h1>
+            <form method="GET" id="contactUs">
+               <fieldset>
+                <legend>To Contact me send me an email</legend>
+                   <label for="fname">*FirstName: </label>
+                   <input type="text" name="fname" id="fname" required><br><br>
+                   <label for="lname">*LastName: </label>
+                   <input type="text" name="lname" id="lname" required><br><br>
+                   <label for="email">*Email: </label>
+                   <input type="email" name="email" id="email" required><br><br>
+               
+               <label for="comments">*Comments: <br> </label>
+               <textarea name="comments" id="comments" cols="40" rows="4" required></textarea><br>
+               <button value="Contact" type="submit">Contact</button>
+               <button value="Reset" type="reset">Reset</button>
+
+               </fieldset>
+            </form>
+           </div>
+           </div>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2021.Maryam Faraji. All rights reserved.</p>
+            <!-- <img src="images/email.png" alt="email icon" width="50" height="50"> -->
+        </footer>
+    </div>
+</body>
+</html>
