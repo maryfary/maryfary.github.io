@@ -203,6 +203,21 @@ footer{
 #box2 ul li a:hover{
     color:#000;
 }
+#box3 ul li{
+    text-decoration: none;
+    padding: 10px 0;
+    list-style-type: none;
+    font-size:13px;
+    font-weight: bold;
+    text-align: left;
+}
+#box3 ul li a{
+    text-decoration: none;
+    color:rgb(2, 99, 62);
+}
+#box3 ul li a:hover{
+    color:#000;
+}
 #dropDownMenu{
     display: none;
 }
