@@ -151,7 +151,7 @@ footer{
 #boxes{
     margin:auto;
     align-items: center;
-    width: 870px;
+    width: 820px;
 }
 #box1,#box2,#box3{
     width: 250px;
@@ -161,7 +161,7 @@ footer{
     text-align: justify;
     border: 5px solid #A7CBB3;
     box-shadow: 10px 10px 10px rgb(199, 198, 198);
-    min-height: 300px;
+    min-height: 350px;
     padding: 0;
 } 
 #box1:hover,#box2:hover,#box3:hover{
@@ -181,7 +181,28 @@ footer{
 #box1 h6,#box2 h6,#box3 h6{
     padding: 0 20px;
 } 
-
+#box1 ul li{
+    text-decoration: none;
+    padding: 10px 0;
+    list-style-type: none;
+}
+#box2 ul li{
+    text-decoration: none;
+    padding: 10px 0;
+    list-style-type: none;
+    font-size:13px;
+    font-weight: bold;
+}
+#box2 ul li a{
+    color:rgb(2, 99, 62);
+    text-decoration: none;
+    position: relative;
+    top:-10px;
+    margin-left: 10px;
+}
+#box2 ul li a:hover{
+    color:#000;
+}
 #dropDownMenu{
     display: none;
 }
