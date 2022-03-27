@@ -1,0 +1,33 @@
+{
+    "short_name": "Maryam",
+    "name": "Maryam Faraji Portfolio",
+    "icons": [
+      {
+        "src": "/images/mf.png",
+        "type": "image/png",
+        "sizes": "95x58"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "Maryam Faraji",
+        "short_name": "Maryam",
+        "description": "Projects done by Maryam Faraji",
+        "url": "maryfary.github.io",
+        "icons": [{ "src": "/images/mf.png", "sizes": "95x58" }]
+      }
+    ],
+    "description": "Maryam Faraji Portfolio",
+    "screenshots": [
+      {
+        "src": "/images/mf.png",
+        "type": "image/png",
+        "sizes": "95x58"
+      }
+    ]
+  }
