@@ -22,14 +22,14 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #00301ca8;
+    color: #002013a8;
     margin: 0;
     padding: 10px;
     width: 110px;
     font-weight: bold;
 }
 nav li a:link {
-    color: #38ac7ca8;
+    color: #143a2aa8;
 }
 nav li a:hover {
     border-bottom: 3px solid #38ac7ca8;    
